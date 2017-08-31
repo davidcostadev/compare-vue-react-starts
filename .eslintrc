@@ -1,0 +1,26 @@
+{
+  "extends": "airbnb-base",
+  "parser": "babel-eslint",
+  "plugins": [
+    "import"
+  ],
+  "globals": {
+    "prettyjson": true
+  },
+  "rules": {
+    "semi": ["error", "never"],
+    "consistent-return": "off",
+    "no-console": "off",
+    "camelcase": "off",
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "none",
+        "ignoreRestSiblings": true
+      }
+    ],
+    "class-methods-use-this": "off",
+    "no-param-reassign": "off"
+  }
+}
